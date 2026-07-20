@@ -1,0 +1,26 @@
+{
+  "date": "July 20, 2026",
+  "description": "Official plays and the best value opportunities from today's model run.",
+  "sections": [
+    {
+      "name": "Official Hit Plays",
+      "rows": [
+        {"player": "Kyle Schwarber", "bet": "1+ hit", "odds": "-170", "note": "Play only at -180 or better."}
+      ]
+    },
+    {"name": "Official Home Run Plays", "rows": []},
+    {
+      "name": "Best Hit EV",
+      "rows": [
+        {"player": "Richie Palacios", "bet": "1+ hit", "odds": "+105", "note": "Must be confirmed in the starting lineup."}
+      ]
+    },
+    {
+      "name": "Best HR EV",
+      "rows": [
+        {"player": "Curtis Mead", "bet": "Home run", "odds": "+360", "note": "Coors matchup versus Kyle Freeland."}
+      ]
+    }
+  ],
+  "footer": "Confirm lineup and your sportsbook price before betting."
+}
