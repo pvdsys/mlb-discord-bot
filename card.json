@@ -1,26 +1,34 @@
 {
   "date": "July 20, 2026",
-  "description": "Official plays and the best value opportunities from today's model run.",
+  "description": "Official hit and total-base plays, followed by an optional lottery parlay.",
   "sections": [
     {
       "name": "Official Hit Plays",
-      "rows": [
-        {"player": "Kyle Schwarber", "bet": "1+ hit", "odds": "-170", "note": "Play only at -180 or better."}
-      ]
-    },
-    {"name": "Official Home Run Plays", "rows": []},
-    {
-      "name": "Best Hit EV",
-      "rows": [
-        {"player": "Richie Palacios", "bet": "1+ hit", "odds": "+105", "note": "Must be confirmed in the starting lineup."}
-      ]
+      "rows": []
     },
     {
-      "name": "Best HR EV",
+      "name": "Official Total Bases Plays",
       "rows": [
-        {"player": "Curtis Mead", "bet": "Home run", "odds": "+360", "note": "Coors matchup versus Kyle Freeland."}
+        {
+          "player": "Yordan Alvarez",
+          "bet": "Over 1.5 total bases",
+          "odds": "-125",
+          "start_time": "8:10 PM",
+          "note": "Play to -135; must start."
+        }
+      ]
+    },
+    {
+      "name": "Lottery Parlay — Optional 0.1 Unit",
+      "rows": [
+        {
+          "player": "Full Model Lottery",
+          "bet": "Yordan O1.5 TB + Torkelson O1.5 TB + Valdez HR + Mead HR",
+          "odds": "About +6400",
+          "start_time": "7:05 PM–8:40 PM",
+          "note": "Confirm every player is starting and use your sportsbook's displayed price."
+        }
       ]
     }
   ],
-  "footer": "Confirm lineup and your sportsbook price before betting."
-}
+  "footer": "Official plays are singles. Lottery parlay is optional at 0.1 unit."
