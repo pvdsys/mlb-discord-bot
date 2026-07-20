@@ -1,6 +1,6 @@
 {
   "date": "July 20, 2026",
-  "description": "Official hit and total-base plays, followed by an optional lottery parlay.",
+  "description": "Selective official plays only. Confirm lineup and price before betting.",
   "sections": [
     {
       "name": "Official Hit Plays",
@@ -12,24 +12,23 @@
         {
           "player": "Yordan Alvarez",
           "bet": "Over 1.5 total bases",
-          "odds": "-125",
+          "odds": "-120",
           "start_time": "8:10 PM",
-          "note": "Play to -135; must start."
+          "note": "Play through -130; must start."
+        },
+        {
+          "player": "Ketel Marte",
+          "bet": "Over 1.5 total bases",
+          "odds": "-125",
+          "start_time": "9:40 PM",
+          "note": "Play through -130; must start."
         }
       ]
     },
     {
       "name": "Lottery Parlay — Optional 0.1 Unit",
-      "rows": [
-        {
-          "player": "Full Model Lottery",
-          "bet": "Yordan O1.5 TB + Torkelson O1.5 TB + Valdez HR + Mead HR",
-          "odds": "About +6400",
-          "start_time": "7:05 PM–8:40 PM",
-          "note": "Confirm every player is starting and use your sportsbook's displayed price."
-        }
-      ]
+      "rows": []
     }
   ],
-  "footer": "Official plays are singles. Lottery parlay is optional at 0.1 unit."
+  "footer": "Official plays are singles. Skip if the price exceeds the limit or the player is not starting."
 }
