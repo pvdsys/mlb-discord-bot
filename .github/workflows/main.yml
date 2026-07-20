@@ -3,19 +3,22 @@ name: Post MLB card to Discord
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * *"
-    - cron: "30 15 * * *"
+    # 12:30 PM, 5:30 PM, and 8:30 PM Eastern during MLB season
+    - cron: "30 16 * * *"
     - cron: "30 21 * * *"
     - cron: "30 0 * * *"
 
 jobs:
   post:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Post Discord card
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
